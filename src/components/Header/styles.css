@@ -1,7 +1,7 @@
 .header-bar {
   display: flex;
   background-color: black;
-  height: 10vh;
+  height: clamp(5rem,10vh,10rem);
   justify-content: space-between;
   padding: 0 10vw;
   align-items: center;
@@ -21,12 +21,13 @@
 .header-menu li {
   list-style-type: none;
   font-size: 15px;
+  font-weight: 600;
   margin: 0 15px;
   cursor: pointer;
 }
 
 .header-bar li:hover{
-  color: green;
+  color: #1ed760;
 }
 
 .menu-vb {

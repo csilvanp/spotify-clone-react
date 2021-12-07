@@ -1,16 +1,78 @@
 .banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   width: 100%;
   height: 80vh;
-  background-size: 25rem;
   background-repeat: no-repeat;
-  background-position: 85% 50%;
 }
 
 .banner-subtitle {
   text-transform: uppercase;
   font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
 }
 
 .banner-title {
-  font-size: 30px;
+  margin: 0;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: -2px;
+}
+
+.banner-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 9vw;
+  margin-top: 10vh;
+}
+
+.banner-content {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 2.5rem;
+  letter-spacing: 0.2px;
+  width: 80%;
+}
+
+.banner-normal-btn{
+  width: 50%;
+  padding: 1rem 1.2rem;
+  border-radius: 30px;
+  border: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.banner-normal-btn:hover{
+  transform: scale(1.03)
+}
+
+.banner-store-btn{
+  flex-direction: row;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: fit-content;
+  width: fit-content;
+  max-width: 9rem;
+  margin-right: 7px;
+}
+
+.banner-footer-content{
+  width: 95%;
+  font-size: 12px;
+  margin-bottom: 2rem;
+}
+
+.banner-footer-link {
+  text-decoration: underline;
 }
