@@ -1,5 +1,6 @@
 import { Header } from './components/Header';
 import { Banner } from './components/Banner';
+import { Footer } from './components/Footer';
 import './App.css'
 
 function App() {
@@ -45,6 +46,8 @@ function App() {
         backgroundSize="1500px"
         backgroundPos="100% 0%"
       />
+
+      <Footer/>
     </div>
   )
 }
